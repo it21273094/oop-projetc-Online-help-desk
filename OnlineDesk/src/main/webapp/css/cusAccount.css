@@ -1,0 +1,81 @@
+
+*{
+   	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+      
+  }
+
+
+/*Profile Images*/
+.imgP{
+     position:absolute;
+	display: inline-block;
+	width: 100px; 
+	height: 100px;
+	opacity: 1;
+      margin-left:700px;
+      margin-Right:60px;
+	margin-top:50px;
+	border:4px  double ;
+	/* border-position:fixed;	 */
+}
+
+.img{
+	width:50%;
+	height:50%;
+      position:absolute;
+
+}
+
+
+
+
+/* Text */
+.text-box{
+	width:600px;
+	color:#fff;
+	position:absolute;
+	top:50%;
+	left:40%;
+	transform:translate(-50%,-50%);
+	text-align:left;
+	background:rgba(86,86,86,0.3);
+	backdrop-filter: blur(10px);
+	margin:70px 20px 20px 150px;
+	font-size:15px;
+	color:#000;
+	padding:60px;
+}
+
+
+
+/* button */
+.btn{
+	display:inline-block;
+	padding:8px 25px;
+	background:transparent;
+	outline:none;
+	color:#fff;
+	text-decoration: none;
+	border:2px solid #fff;
+	border-radius:20px;
+	font-size:15px;
+	/*font weight:bold;*/
+	cursor:pointer;
+	margin:5px;
+}
+
+/* button hover */
+.btn:hover{
+	border:1px solid #190EDE;
+	background:#190EDE;
+	transition:1s;
+}
+
+/* button link */
+.btn a{
+	text-decoration: none;
+	color: #FFFF;
+}
+
+
